@@ -2,7 +2,7 @@
 
 A modern, production-ready authentication and task management application built with React and FastAPI.
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 ### Backend
 
@@ -27,34 +27,34 @@ A modern, production-ready authentication and task management application built 
 - **PostgreSQL** - Production database
 - **Railway** - Cloud deployment platform
 
-## 📋 Features
+##  Features
 
 ### Authentication
 
-- ✅ User signup with validation
-- ✅ Secure login with JWT tokens
-- ✅ Password hashing with bcrypt
-- ✅ Protected routes
-- ✅ Profile management
+-  User signup with validation
+-  Secure login with JWT tokens
+-  Password hashing with bcrypt
+-  Protected routes
+-  Profile management
 
 ### Task Management
 
-- ✅ Create, read, update, delete tasks
-- ✅ Search and filter functionality
-- ✅ Task status (pending, in progress, completed)
-- ✅ Priority levels (low, medium, high)
-- ✅ Due dates
-- ✅ Pagination
+-  Create, read, update, delete tasks
+-  Search and filter functionality
+-  Task status (pending, in progress, completed)
+-  Priority levels (low, medium, high)
+-  Due dates
+-  Pagination
 
 ### Security
 
-- ✅ Password strength validation
-- ✅ JWT token authentication
-- ✅ Protected API endpoints
-- ✅ CORS configuration
-- ✅ Input validation (client & server)
+-  Password strength validation
+-  JWT token authentication
+-  Protected API endpoints
+-  CORS configuration
+-  Input validation (client & server)
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 
@@ -155,7 +155,7 @@ docker-compose logs -f
 docker-compose down
 ```
 
-## 🎯 Demo Credentials
+##  Demo Credentials
 
 After running the application, create a user through the signup page or use these steps:
 
@@ -177,7 +177,7 @@ curl -X POST http://localhost:8000/api/v1/auth/signup \
 - Email/Username: `demo@example.com` or `demouser`
 - Password: `Demo123!`
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 fullstack-auth-dashboard/
@@ -283,48 +283,48 @@ REACT_APP_API_URL=https://<your-backend>.railway.app
 6. Add PostgreSQL from "New" → "Database" → "PostgreSQL"
 7. Configure environment variables in Railway dashboard
 
-## 🔒 Production Considerations
+##  Production Considerations
 
 ### Security
 
-- ✅ Use strong SECRET_KEY (generate with: `openssl rand -hex 32`)
-- ✅ Enable HTTPS in production
-- ✅ Set secure CORS origins
-- ✅ Use environment variables for sensitive data
-- ✅ Implement rate limiting (optional)
-- ✅ Add refresh tokens for better security (optional)
+-  Use strong SECRET_KEY (generate with: `openssl rand -hex 32`)
+-  Enable HTTPS in production
+-  Set secure CORS origins
+-  Use environment variables for sensitive data
+-  Implement rate limiting (optional)
+-  Add refresh tokens for better security (optional)
 
 ### Database
 
-- ✅ Use connection pooling
-- ✅ Add database indexes on frequently queried fields
-- ✅ Regular backups
-- ✅ Use managed PostgreSQL service
+-  Use connection pooling
+-  Add database indexes on frequently queried fields
+-  Regular backups
+-  Use managed PostgreSQL service
 
 ### Performance
 
-- ✅ Enable frontend build optimization
-- ✅ Use CDN for static assets
-- ✅ Implement caching (Redis)
-- ✅ Database query optimization
-- ✅ Add pagination for large datasets
+-  Enable frontend build optimization
+-  Use CDN for static assets
+-  Implement caching (Redis)
+-  Database query optimization
+-  Add pagination for large datasets
 
 ### Monitoring
 
-- ✅ Add logging (structured logs)
-- ✅ Error tracking (Sentry)
-- ✅ Performance monitoring
-- ✅ Uptime monitoring
+-  Add logging (structured logs)
+-  Error tracking (Sentry)
+-  Performance monitoring
+-  Uptime monitoring
 
 ### Scaling
 
-- ✅ Horizontal scaling with load balancer
-- ✅ Database read replicas
-- ✅ Caching layer (Redis)
-- ✅ CDN for static assets
-- ✅ Separate API gateway
+-  Horizontal scaling with load balancer
+-  Database read replicas
+-  Caching layer (Redis)
+-  CDN for static assets
+-  Separate API gateway
 
-## 📚 API Documentation
+##  API Documentation
 
 API documentation is automatically generated and available at:
 
@@ -367,7 +367,7 @@ cd frontend
 npm test
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/AmazingFeature`)
@@ -375,21 +375,14 @@ npm test
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open Pull Request
 
-## 📝 License
+##  License
 
 This project is open source and available under the MIT License.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - FastAPI documentation
 - React documentation
 - TailwindCSS
 - Railway deployment platform
 
-## 📧 Support
-
-For issues and questions, please open an issue on GitHub.
-
----
-
-**Built with ❤️ using FastAPI and React**
